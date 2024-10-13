@@ -5,12 +5,12 @@ Funcții pentru Clasa Profesor:
 3.	cautareProfesorDupaMaterie(materie);
 4.		
 Funcții pentru Clasa Student:
-1.adaugareStudent(nume, prenume, clasa);
-2. afisareInformatiiStudent(student);
-3. adaugareNotaStudent(student, materie, valoare, data);
-4. calculareMedieStudent(student);
-5. afisareNoteStudent(student);
-6. afisareAbsențeStudent(student):
+1.  adaugareStudent(nume, prenume, clasa);
+2.  afisareInformatiiStudent(student);
+3.  adaugareNotaStudent(student, materie, valoare, data);
+4.  calculareMedieStudent(student);
+5.  afisareNoteStudent(student);
+6.  afisareAbsențeStudent(student);
 
 Funcții pentru Clasa Clasa:
 1.	adaugareClasa(denumire, nivel, profesor);
