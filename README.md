@@ -24,3 +24,4 @@ Funcții pentru Clasa Scoala:
 2.	imparteEleviPeClaseInFunctieDeMedie(listaElevi, numarClase);
 3.	imparteEleviAleatorPeClase(listaElevi, numarClase);
 4.	distribuieProfesoriPeClase(listaProfesori, listaClase);
+5.  creareOrarPeClase(listaClase,listaProfesori,materie);
