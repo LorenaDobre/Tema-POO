@@ -22,6 +22,5 @@ Funcții pentru Clasa Clasa:
 Funcții pentru Clasa Scoala:
 1.	imparteEleviPeClase(listaElevi, numarClase);
 2.	imparteEleviPeClaseInFunctieDeMedie(listaElevi, numarClase);
-3.	imparteEleviAleatorPeClase(listaElevi, numarClase);
-4.	distribuieProfesoriPeClase(listaProfesori, listaClase);
-5.  creareOrarPeClase(listaClase,listaProfesori,materie);
+3.	distribuieProfesoriPeClase(listaProfesori, listaClase);
+4.  creareOrarPeClase(listaClase,listaProfesori,materie);
