@@ -1,0 +1,15 @@
+﻿  Clasa.cpp
+  ClasaGimnaziu.cpp
+  ClasaLiceu.cpp
+  ClasaPrimar.cpp
+  Proiect POO - Sistemul de management al scolii.cpp
+  Scoala.cpp
+  Generating Code...
+C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\Scoala.cpp(185,131): error C2039: 'getId': is not a member of 'Student'
+      C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\Student.h(9,7):
+      see declaration of 'Student'
+  
+C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\Scoala.cpp(187,30): error C2039: 'getStudenti': is not a member of 'Clasa'
+      C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\Clasa.h(6,7):
+      see declaration of 'Clasa'
+  
