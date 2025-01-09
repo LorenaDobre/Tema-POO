@@ -8,13 +8,12 @@ using namespace std;
 CorpProfesoral::CorpProfesoral() {}
 
 void CorpProfesoral::adaugare_profesor(string nume, string prenume, string materie, string email, int id, int vechime) {
-    // Creăm un obiect Profesor cu datele primite
+    // Creăm un obiect Profesor 
     Profesor profesor(nume, prenume, email, id,materie, vechime);
 
     // Adăugăm profesorul în vectorul de profesori
     profesori.push_back(profesor);
 
-    // Mesaj de confirmare
     cout << "Profesorul a fost adaugat cu succes!" << endl;
 }
 
@@ -31,7 +30,7 @@ void CorpProfesoral::afisare_informatii_profesor(int id) {
             cout << "Materie: " << profesori[i].getMaterie() << endl;
             cout << "Email: " << profesori[i].getEmail() << endl;
             cout << "Vechime: " << profesori[i].getVechime() << endl;
-            break; // Oprire după ce am găsit profesorul
+            break; 
         }
     }
 
@@ -47,7 +46,7 @@ void CorpProfesoral::cautare_profesor_dupa_materie(string materie) {
     // Parcurgem vectorul de profesori
     for (int i = 0; i < profesori.size(); i++) {
         if (profesori[i].getMaterie() == materie) {  // Dacă materia se potrivește
-            if (!gasit) {  // Afișăm mesajul doar la prima potrivire
+            if (!gasit) {  
                 cout << "Profesorii care predau " << materie << " sunt:" << endl;
                 gasit = true;
             }
@@ -67,7 +66,7 @@ void CorpProfesoral::afisare_profesori_peste_25_ani_vechime() {
     for (int i = 0; i < profesori.size(); i++) {
         // Dacă vechimea profesorului este mai mare sau egal cu 25
         if (profesori[i].getVechime() >= 25) {
-            if (!gasit) {  // Afișăm mesajul doar la prima potrivire
+            if (!gasit) {  
                 cout << "Profesorii cu peste 25 de ani de vechime sunt:" << endl;
                 gasit = true;
             }

@@ -1,15 +1,13 @@
-﻿  Clasa.cpp
-  ClasaGimnaziu.cpp
+﻿  ClasaGimnaziu.cpp
   ClasaLiceu.cpp
   ClasaPrimar.cpp
+  CorpProfesoral.cpp
+  EvidentaStudenti.cpp
+C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\EvidentaStudenti.cpp(84,43): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Profesor.cpp
   Proiect POO - Sistemul de management al scolii.cpp
+C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii.cpp(37,9): warning C4101: 'optiune': unreferenced local variable
   Scoala.cpp
+  User.cpp
   Generating Code...
-C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\Scoala.cpp(185,131): error C2039: 'getId': is not a member of 'Student'
-      C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\Student.h(9,7):
-      see declaration of 'Student'
-  
-C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\Scoala.cpp(187,30): error C2039: 'getStudenti': is not a member of 'Clasa'
-      C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\Proiect POO - Sistemul de management al scolii\Clasa.h(6,7):
-      see declaration of 'Clasa'
-  
+  Proiect POO - Sistemul de management al scolii.vcxproj -> C:\Users\dobre\source\repos\Proiect POO - Sistemul de management al scolii\x64\Debug\Proiect POO - Sistemul de management al scolii.exe

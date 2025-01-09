@@ -11,6 +11,7 @@ protected:
 	int Nivel;
 	std::string Litera;
 	int Numar_elevi;
+	std::vector<Student> Studenti; // Vectorul de studenti
 
 public:
 
@@ -26,9 +27,11 @@ public:
 	std::string getLitera() const;
 	int getNumar_elevi() const;
 
+	std::vector<Student>& getStudenti();
+
 	// Setter pentru Numar_elevi
 	void setNumar_elevi(int numar_elevi);
 
-	// Funcție virtuală pură pentru afișarea informa țiilor
+	// Funcție virtuală pură pentru afișarea informațiilor
 	virtual void afisare_informatii() = 0;
 };

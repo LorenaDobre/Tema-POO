@@ -31,14 +31,12 @@ public:
     std::vector<Nota> getNote() const;
     std::vector<Absenta> getAbsente() const;
 
+    void adauga_nota(Nota nota);
+    void adauga_absenta(Absenta absenta);
+
     void setClasa(std::string nume_clasa);
 
-
-    void adaugare_nota_student(int valoare, std::string materie, std::string data);
-
-    void calculare_medie_materie(std::string materie, int numar_ore);
-
-    void adaugare_absenta_student(std::string materie, std::string data);
+    
 
    
 };

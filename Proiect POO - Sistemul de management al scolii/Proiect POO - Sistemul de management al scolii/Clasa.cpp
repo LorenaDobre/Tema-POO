@@ -6,6 +6,7 @@
 #include <vector>
 using namespace std;
 
+
 Clasa::Clasa(string nume, string ciclu, int nivel, string litera, int numar_elevi)
 {
     this->Nume = nume;
@@ -38,4 +39,8 @@ int Clasa::getNumar_elevi() const {
 
 void Clasa::setNumar_elevi(int numar_elevi) {
     Numar_elevi = numar_elevi;
+}
+
+std::vector<Student>& Clasa::getStudenti() {
+    return Studenti;
 }
